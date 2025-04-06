@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .glass-form {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .glass-form h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .glass-form input {
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .glass-form button {
+    padding: 12px;
+    background: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .glass-form button:hover {
+    background: #019875;
+  }
+  
+  .valid {
+    border-color: #00e676;
+    box-shadow: 0 0 5px #00e676;
+  }
+  
+  .error {
+    border-color: #ff1744;
+    box-shadow: 0 0 5px #ff1744;
+  }
+  
