@@ -1,5 +1,5 @@
 function generatePassword() {
-    const length = 12;
+ const length = 12;
     const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
     let password = "";
   
